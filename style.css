@@ -1,0 +1,25 @@
+
+body{
+    background-color: rgb(34, 45, 54);
+}
+header, .alert{
+    z-index: 100;
+}
+.carrito{
+    min-height: 70vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+.table__producto{
+    display: flex;
+}
+.table__producto> img{
+    width: 9rem;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+.hide{
+    display: none;
+}
